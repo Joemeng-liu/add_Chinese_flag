@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 # 输入头像的文件位置以及名字，但是不要后缀，这是为了后面保存方便
-path = 'w_p'
+path = 'q_p'
 name = path + '.jpg'
 # 读取国旗头像框，百度图片下的，分辨率低，效果一般，这个读取路径以及名字需要正确
 img_src = cv2.imread('p5.png')
